@@ -52,7 +52,7 @@ export class RagService {
       });
 
     } catch (error) {
-      console.log("Error in patsing documents: " + error);
+      console.log("Error in parsing documents: " + error);
       console.error(error);
     }
   }
